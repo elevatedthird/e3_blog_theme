@@ -4,7 +4,7 @@
   "description": "Contains a recipe for a simple blog using best practices.",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://github.com/elevatedthird/e3-blog-theme",
+  "homepage": "https://github.com/elevatedthird/e3_blog_theme",
   "minimum-stability": "stable",
   "paragon_propel": {
     "type": "vcs",
