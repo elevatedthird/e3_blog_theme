@@ -12,6 +12,6 @@
   },
   "require": {
     "drupal/core": ">=11.1",
-    "elevatedthird/paragon_propel": "*"
+    "elevatedthird/paragon_propel": "dev-main"
   }
 }
