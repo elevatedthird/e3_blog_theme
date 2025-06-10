@@ -6,12 +6,12 @@
   "license": "GPL-2.0+",
   "homepage": "https://github.com/elevatedthird/e3_blog_theme",
   "minimum-stability": "stable",
-  "paragon_propel": {
+  "propel-drush": {
     "type": "vcs",
     "url": "https://github.com/elevatedthird/paragon_propel"
   },
   "require": {
     "drupal/core": ">=11.1",
-    "elevatedthird/paragon_propel": "dev-main"
+    "elevatedthird/propel-drush": "dev-main"
   }
 }
