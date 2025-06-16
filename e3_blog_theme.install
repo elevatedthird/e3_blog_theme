@@ -1,0 +1,10 @@
+<?php
+
+use Drupal\e3_blog_theme\HookHandler\Install;
+
+/**
+ * Implements hook_install().
+ */
+function e3_blog_theme_install() {
+  Install::install();
+}

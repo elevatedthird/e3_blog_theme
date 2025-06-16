@@ -1,5 +1,7 @@
 name: 'E3 Blog Theme'
 type: module
 description: 'Provides templates for the Propel Blog Recipe.'
-core_version_requirement: ^11.1
+core_version_requirement: ^10.4 || ^11
 package: Propel
+dependencies:
+  - propel:propel

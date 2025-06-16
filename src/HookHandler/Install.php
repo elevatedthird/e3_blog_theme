@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Drupal\e3_blog_theme\HookHandler;
 
+use Drupal\Core\Hook\Attribute\Hook;
+
 /**
  * Hook implementation.
  */
@@ -13,7 +15,7 @@ class Install {
    * Hook implementation.
    */
   #[Hook('install')]
-  public function install():void {
+  public static function install():void {
     // Ensure Kinetic is the default theme.
     $active_theme = \Drupal::config('system.theme')->get('default');
     if ($active_theme !== 'kinetic') {

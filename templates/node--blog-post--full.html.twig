@@ -1,0 +1,14 @@
+{% set rendered_content = content|without([
+  'field_image',
+  'field_published_date',
+  'field_blog_category',
+  'field_body'
+]) %}
+
+{{ include('kinetic:blog', {
+  category: node.field_blog_category.entity.label,
+  title: label,
+  publish_date: content.field_published_date,
+  authors: content.field_author,
+  content: rendered_content,
+}, with_context: false) }}

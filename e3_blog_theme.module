@@ -1,0 +1,18 @@
+<?php
+
+use Drupal\e3_blog_theme\HookHandler\Preprocess;
+use Drupal\e3_blog_theme\HookHandler\Theme;
+
+/**
+ * Implements hook_theme().
+ */
+function e3_blog_theme_theme() {
+  return Theme::theme();
+}
+
+/**
+ * Implements hook_preprocess_node__BUNDLE().
+ */
+function e3_blog_theme_preporocess_node__blog_post(&$variables) {
+  Preprocess::preprocessNodeBlog($variables);
+}
